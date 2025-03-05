@@ -1,4 +1,4 @@
-<Study id="prova" datagroup="prova">
+<Study id="BIATstem" datagroup="research">
 
 	<Definitions>
         <Task id="pimgr" file="mgrconsent.js">/common/all/js/quest/0.1/dist/manager.jsp</Task>
