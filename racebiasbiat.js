@@ -1,6 +1,6 @@
 //define(['/implicit/user/mmarini/nancyracepics/biat_extension_self.js'], function(biat_extension_good){
 //	return biat_extension_good({
-define(['/implicit/user/mmarini/racenancy_discrimination2/extension2.js'], function(batExtension){
+define(['https://maryabby90.github.io/BIATstem/extension2.js'], function(batExtension){
 	return batExtension({
 categories : [ 
             {
