@@ -1,6 +1,4 @@
-//define(['/implicit/user/mmarini/nancyracepics/biat_extension_self.js'], function(biat_extension_good){
-//	return biat_extension_good({
-define(['/implicit/user/mmarini/racenancy_discrimination2/extension1.js'], function(batExtension){
+define(['https://maryabby90.github.io/BIATstem/extension1.js'], function(batExtension){
 	return batExtension({
 		categories : [  
 			{
@@ -50,7 +48,7 @@ define(['/implicit/user/mmarini/racenancy_discrimination2/extension1.js'], funct
 		
 		practiceBlock : false, 
 		base_url : {//Where are your images?
-			image : '/implicit/user/mmarini/racenancy_discrimination2/'
+			image : 'https://maryabby90.github.io/BIATstem/'
 		},
 		fb_strong_Att1WithCatB_Att2WithCatA : 'Your data suggest a strong association CATEGORYB-Target and CATEGORYA-Perpetrator.',
 		fb_moderate_Att1WithCatB_Att2WithCatA : 'Your data suggest a moderate association CATEGORYB-Target and CATEGORYA-Perpetrator.',
