@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ruleset PUBLIC "dtd/SRML-simpleRules.dtd" "../dtd/SRML-simpleRules.dtd">
+<ruleset name="racenancy_discrimination2.rules.xml">
+    <rule name="racenancy_discrimination2.rules.xml">
+        <conditionPart>
+            <simpleCondition className="Demographics">
+                <naryExp operator="and">
+                    <binaryExp operator="eq">
+                        <field name="citizenship" />
+                        <constant type="string" value="us" />
+                    </binaryExp>
+                    <binaryExp operator="eq">
+                        <field name="residence" />
+                        <constant type="string" value="us" />
+                    </binaryExp>
+                    <binaryExp operator="lte">
+                        <field name="birthyear" />
+                        <constant type="int" value="1994" />
+                    </binaryExp>
+                    <binaryExp operator="gte">
+                        <field name="birthyear" />
+                        <constant type="int" value="1955" />
+                    </binaryExp>
+                    <binaryExp operator="neq">
+                        <field name="raceomb" />
+                        <constant type="string" value="6" />
+                    </binaryExp>
+                </naryExp>
+            </simpleCondition>
+        </conditionPart>
+        <actionPart>
+            <assignment>
+                <variable name="odds" />
+                <constant type="int" value="26" />
+            </assignment>
+        </actionPart>
+    </rule>
+</ruleset>
