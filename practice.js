@@ -60,7 +60,7 @@ define(['https://maryabby90.github.io/BIATstem/extensionpractice.js'], function(
        	practiceBlock : false, 
 		
 		base_url : {//Where are your images?
-			image : '/implicit/user/mmarini/racenancy_discrimination2/'	},
+			image : 'https://maryabby90.github.io/BIATstem/'	},
 			
 			
 		fb_strong_Att1WithCatB_Att2WithCatA : 'Your data suggest a strong association Female-Good and Male-Bad.',
