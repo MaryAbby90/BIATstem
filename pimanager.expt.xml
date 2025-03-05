@@ -1,4 +1,4 @@
-<Study id="mmarini.racenancy_discrimination2" datagroup="research">
+<Study id="prova" datagroup="prova">
 
 	<Definitions>
         <Task id="pimgr" file="mgrconsent.js">/common/all/js/quest/0.1/dist/manager.jsp</Task>
