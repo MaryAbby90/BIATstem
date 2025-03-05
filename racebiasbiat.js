@@ -1,5 +1,3 @@
-//define(['/implicit/user/mmarini/nancyracepics/biat_extension_self.js'], function(biat_extension_good){
-//	return biat_extension_good({
 define(['https://maryabby90.github.io/BIATstem/extension2.js'], function(batExtension){
 	return batExtension({
 categories : [ 
@@ -58,7 +56,7 @@ categories : [
        	practiceBlock : false, 
 		
 		base_url : {//Where are your images?
-			image : '/implicit/user/mmarini/racenancy_discrimination2/'	},
+			image : 'https://maryabby90.github.io/BIATstem'	},
 		
 			
 		fb_strong_Att1WithCatB_Att2WithCatA : 'Your data suggest a strong association CATEGORYB-Good and CATEGORYA-Bad.',
